@@ -1,0 +1,68 @@
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    background-color: #fbbeef;
+    padding: 10%;
+}
+
+.timerZone {
+    margin: 0 auto;
+    width: 600px;
+    
+    .timerZone__buttons {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 20px;
+        
+        .timerZone__buttons-button {
+            width: 120px;
+
+            font-size: 32px;
+
+            border: 1px #000 solid;
+            border-radius: 15px;
+
+            background-color: #fff;
+        }
+        
+    }
+    .timerZone__time {
+        margin-bottom: 20px;
+        height: 70px;
+
+        font-size: 60px;
+        text-align: center;
+        align-content: center;
+        
+        border: solid 1px #000;
+        border-radius: 30px;
+
+        background-color: #fff;
+    }
+    .timerZone__savedTime {
+        height: 32px;
+        padding: 0 20px;
+        margin-top: 15px;
+
+        font-size: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border: #000 solid 1px;
+        border-radius: 20px;
+
+
+        background-color: #fff;
+
+        .timerZone__savedTime-X {
+            color: darkred;
+            font-size: 26px;
+        }
+    }
+    
+}
+
+
+
